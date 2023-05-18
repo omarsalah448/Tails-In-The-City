@@ -4,7 +4,7 @@ A project simulating a Pet care system where a user can adopt, breed, or buy thi
 For a complete list of the features, system architecture, UML please refer to the report
 
 ## System Architecture
-![img](images/mvc.jpg)
+![img](images/mvc.jpeg)
 
 ## Database Structure:
 ![img](images/mapping.jpg)
