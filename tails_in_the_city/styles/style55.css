@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Helvetica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+/* *{
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+} */
+
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+/*  background: -webkit-linear-gradient(right,#F8F8FF,#B0C4DE,	#F8F8FF);*/
+
+}
+/* * {
+  box-sizing: border-box;
+} */
+
+#newparent{
+    font-family: 'Poppins', sans-serif;
+    width: max-content;
+    margin: 40px auto;
+    padding: 20px;
+    background: #FFFFFF8c;
+    border-radius: 40px;
+    /* border: 1px hidden #302d2d; */
+    animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transform: translate(50px, -40px);
+}
+/* #petform{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(540px, -690px);
+    font-family: 'Poppins', sans-serif;
+    width: 1000px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #FFFFFF8c;
+    border-radius: 40px;
+    border: 1px hidden #302d2d;
+    animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+} */
+#fname {
+    transform: translateX(+119px);
+    background-color: #ffffff4a;
+ 
+ }
+ #femail {
+    transform: translateX(+123px);
+    background-color: #ffffff4a;
+ }
+ 
+ #fpassword {
+    transform: translateX(+90px);
+    background-color: #ffffff4a;
+ }
+ #fcpassword {
+    transform: translateX(+21px);
+    background-color: #ffffff4a;
+ }
+#fphone {
+        transform: translateX(+50px);
+        background-color: #ffffff4a;
+    }
+#faddress {
+        transform: translateX(+102px);
+        background-color: #ffffff4a;
+    }
+#fssn {
+        transform: translateX(+139px);
+        background-color: #ffffff4a;
+    }
+#fusername {
+    transform: translateX(85px);
+    background-color: #ffffff4a;
+    }
+
+    input { margin-bottom: 10px; 
+    
+margin-right:30px;
+    }
+    fieldset{
+        border:none;
+        padding:15px;
+        width:500px;
+        margin:0px auto;
+    }
+ /* #pet_breeding_status{
+    transform: translateX(+10px);
+    background-color: #ffffff4a;
+
+} */
+#pet_type{
+transform: translateX(+99px);
+background-color: #ffffff4a;
+
+}
+#pet_id{
+    transform: translateX(+90px);
+    background-color: #ffffff4a;
+
+}
+#pet_name{
+    transform: translateX(+90px);
+    background-color: #ffffff4a;
+
+}
+#pet_color{
+    transform: translateX(+90px);
+    background-color: #ffffff4a;
+
+}
+#pet_breed{
+    transform: translateX(+90px);
+    background-color: #ffffff4a;
+
+}
+#pet_gender{
+    transform: translateX(+75px);
+    background-color: #ffffff4a;
+
+}
+#pet_age{
+    transform: translateX(+105px);
+    background-color: #ffffff4a;
+
+} 
+
+    #btn{
+        transform: translate(-0px,-0px);
+        width: 200px;
+        height: 40px;
+        color: white;
+        background-color: #795ba3;
+        text-align: center ;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+        border: 1px hidden #302d2d;
+    }
+    #newparentregtitle{
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 40px;
+        font-weight: 600;
+        transform: translate(50px, 15px);
+    }
+    #petheader{
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 20px;
+        font-weight: 600;
+        transform: translateY(-10px);
+    }

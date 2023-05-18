@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Helvetica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+*{
+  margin: 0;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+/*  background: -webkit-linear-gradient(right,#F8F8FF,#B0C4DE,	#F8F8FF);*/
+
+}
+* {
+  box-sizing: border-box;
+}
+
+#subphrase{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: RlFreight, HoeflerText-Black, Times New Roman, serif;
+font-size: 20px;
+font-weight: 900;
+letter-spacing: +4px;
+line-height: 90px;
+text-transform: none;
+ transform: translateY(+450px);
+}
+#tails_in_the_city{
+  display: block;
+ font-family: 'Fredericka the Great', cursive;
+ font-size: 75px;
+ transform: translateX(+300px);
+}
+
+#carrentals{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+ font-family: RlFreight, HoeflerText-Black, Times New Roman, serif;
+font-size: 65px;
+font-weight: 900;
+letter-spacing: +1px;
+line-height: 90px;
+text-transform: none;
+ transform: translateY(+20px);
+}
+
+#carrentals:before, #carrentals:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 40%;
+    height: 1px;
+    content: '\a0';
+    background-color: black;
+}
+#carrentals:before {
+    margin-left: -40%;
+    text-align: right;
+}
+#CustomerHeader{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ transform: translateY(-10px);
+
+}
+#AdminHeader{
+display: block;
+ margin-left: auto;
+ margin-right: auto;
+ transform: translateY(-10px);
+}
+
+/*width : 100%;
+height: 720px;
+background-image: url("car1.jpg");
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}*/
+#customerform {
+  font-family: 'Poppins', sans-serif;
+    width: max-content;
+    margin: 40px auto;
+    padding: 25px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    border: 1px hidden #302d2d;
+    animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transform: translateY(-30px);
+    transform: translateX(-500px);
+}
+#adminform {
+  font-family: 'Poppins', sans-serif;
+    width: max-content;
+     height: 240px;
+    margin: 40px auto;
+    padding: 25px;
+    background: #FFFFFF;
+    border-radius: 40px;
+    border: 1px hidden #302d2d;
+    animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    transform: translate(+140px, -350px);
+
+}
+#log {
+  font-family: 'Poppins', sans-serif;
+	background:  #D3D3D3;;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+#submitt {
+  font-family: 'Poppins', sans-serif;
+  background: #D3D3D3;
+      color: #fff;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px #eee;
+      text-shadow: none;
+}
+#registerr {
+  font-family: 'Poppins', sans-serif;
+  background: #D3D3D3;
+      color: #fff;
+      border: 1px solid #eee;
+      border-radius: 5px;
+      box-shadow: 5px 5px 5px #eee;
+      text-shadow: none;
+      transform: translateX(-200px);
+}
+#title{
+    
+    transform: translate(400px,-42px);
+}
+#button-89{
+  transform: translate(400px,-65px);
+  width: 310px;
+}
+
+#myform1 {
+transform: translateY(-120px);
+}
+#fname {
+   transform: translateX(+120px);
+
+}
+#femail {
+   transform: translateX(+123px);
+}
+
+#fpassword {
+   transform: translateX(+5px);
+}
+#fcpassword {
+   transform: translateX(+20px);
+}
+/* CSS */
+.button-89 {
+    --b: 2px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #795548;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-89:hover,
+  .button-89:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+  }
+  
+  .button-89:active {
+    background: var(--color);
+    color: #fff;
+  }
+ /* admin buttons */
+ #button-90{
+  transform: translate(400px,-65px);
+  width: 310px;
+}
+  .button-90 {
+    --b: 2px;   /* border thickness */
+    --s: .45em; /* size of the corner */
+    --color: #FFFFFF;
+    
+    padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background:
+      conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+      var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    transition: .3s linear, color 0s, background-color 0s;
+    outline: var(--b) solid #0000;
+    outline-offset: .6em;
+    font-size: 16px;
+  
+    border: 0;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-90:hover,
+  .button-90:focus-visible{
+    --_p: 0px;
+    outline-color: var(--color);
+    outline-offset: .05em;
+  }
+  
+  .button-90:active {
+    background: var(--color);
+    color: #fff;
+  }

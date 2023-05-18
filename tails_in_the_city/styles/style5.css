@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Helvetica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Fredericka+the+Great&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantata+One&family=Fredericka+the+Great&family=Indie+Flower&family=Kristi&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hurricane&display=swap');
+
+body {
+margin : 50px;
+    background-image: url('p50.png');
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-attachment: fixed;
+background-position: center;
+  }
+ 
+  
+  .card-img-top{
+    width: 420px;
+    height: 400px;
+  }
+  img {
+			max-width: 100%;
+	}
+    h1 {
+		margin-bottom: 0.1em;
+		font-size: 1.5em;
+		font-weight: 900;
+	}
+  .price {
+	margin: 1.5em 0;
+  color: #482d5c;
+	/* font-size: 1.2em; */
+
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+  }
+	span {
+		padding-left: 0.15em;
+    color: #482d5c;
+		font-size: 2.9em;
+    font-family: "Raleway", sans-serif;
+	}
+  .horizontal {
+  display: inline-block;
+  font-size: 18px;
+
+  
+  }
+#headerr
+  {
+    font-size: 25px;
+
+
+  }
+  #productname{
+    font-size: 25px;
+    font-family:  'Poppins', sans-serif;
+    font-weight: 600;
+    color: #482d5c;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+
+  }
+#searchEntry{
+  background: #8a6a9126;
+  height: 40px;
+  width: 1300px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 1px solid #8a6a9126;
+  padding: 10px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  transition: 0.3s;
+  transform: translateY(+5px);
+}
+    
+#btn{
+        transform: translate(140px,-125px);
+        width: 120px;
+        height: 40px;
+        color: white;
+        background-color: #795ba3;
+        text-align: center ;
+        margin: 0 auto;
+        display: block;
+        border-radius: 10px;
+        border: 1px hidden #302d2d;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+    }
+
+    #entered_quantity{
+      transform: translate(170px,-130px);
+        width: 50px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #795ba3;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        background-color: #f2f2f2;
+        font-size: 16px;
+    }
+    table {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Fredericka the Great', cursive;
+      }
+      .container{
+        margin-top: 50px;
+        font-family: 'Fredericka the Great', cursive;
+      }
+      .thead {
+        background-color: #95A5A6;
+        font-size: 80px;
+        text-transform: uppercase;
+        letter-spacing: 0.03em;
+      }
+        .thead th {
+            padding: 20px 10px;
+            color: #fff;
+            font-weight: 500;
+        }
+        .thead th:first-child {
+            border-top-left-radius: 5px;
+        }
+        .thead th:last-child {
+            border-top-right-radius: 5px;
+        }
+        .tbody tr {
+            border-bottom: 1px solid #95A5A6;
+        }
+        .tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+        .tbody tr:last-of-type {
+            border-bottom: 2px solid #95A5A6;
+        }
+        .tbody td {
+            padding: 20px 10px;
+            text-align: center;
+        }
+        .tbody td:first-child {
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .tbody td:last-child {
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .tbody tr:hover td {
+            background-color: #eaeaea;
+        }
+
+#title{
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 50px;
+  color: #482d5c;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#review{
+      display: block;
+       font-family: 'Cantata One', serif; 
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Indie Flower', cursive;
+    width: 1100px;
+    height: 200px;
+    /* margin: 40px auto; */
+    padding: 25px;
+    background: #eee;
+    border-radius: 40px;
+    border: 1px hidden #302d2d;
+    animation: popup 0.4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+    zoom: 100%;
+    left      : 50%;
+    top       : 50%;
+    position  : absolute;
+    /* transform : translateX(-50%) translateY(-50%); */
+    transform: translate(-650px,2590px );
+/* transform : translateX(-650px); */
+    bottom:0;
+    font-size: 35px;
+    }
+    #sig{
+        font-family: 'Hurricane', cursive;
+
+    font-size: 40px;
+    }
+     
+  
